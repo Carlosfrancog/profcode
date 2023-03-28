@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <img src="img/banner.jpg" width="1400">
+        <h1><strong>Entre em contato comigo!</strong></h1>
     </header>
     <hr>
     <nav>
@@ -21,7 +21,23 @@
         </h1>
     </nav>
     <main>
-        
+        <form method="POST">
+            <fieldset>
+                <label for="nome"><Nome></Nome>Nome*:</label>
+                <input type="text" id="nome" name="nome" required><br>
+                
+                <label for="email">E-mail*:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="assunto">Assunto*:</label>
+                <input type="text" id="assunto" name="assunto" required><br>
+                
+                <label for="mensagem">Mensagem*:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea><br>
+                
+                <button type="submit">Enviar</button>
+            </fieldset>
+          </form>
     </main>
     <hr>
     <footer>
